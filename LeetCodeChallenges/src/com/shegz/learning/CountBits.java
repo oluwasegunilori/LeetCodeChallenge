@@ -9,7 +9,7 @@ public class CountBits {
 			var count = 0;
 			for (int j = 0; j <= 31; j++) {
 				//Checks if the bit at each point is a set bit
-				if ((n & (1 << j)) > 0) {
+				if ((i & (1 << j)) > 0) {
 					count++;
 				}
 			}
